@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PeerJS Chat App</title>
+</head>
+<body>
+  <h1>PeerJS Chat App</h1>
+  <p id="myId"></p>
+  <input type="text" id="peerId" placeholder="Enter PeerJS ID">
+  <button onclick="connect()">Connect</button>
+  <br><br>
+  <textarea id="messages" rows="10" cols="50" readonly></textarea>
+  <br><br>
+  <input type="text" id="messageInput" placeholder="Enter message">
+  <button onclick="sendMessage()">Send</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.3.2/peerjs.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
